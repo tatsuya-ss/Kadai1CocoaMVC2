@@ -10,6 +10,13 @@ import XCTest
 
 class Kadai1CocoaMVCTatsuyaTests: XCTestCase {
 
+    
+    func testcalculate() {
+        let calculateModel = CalculateModel()
+        let numberArray = [1, 2, 3, 4, 5]
+        XCTAssertEqual(calculateModel.sum(numberArray), 15)
+    }
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
