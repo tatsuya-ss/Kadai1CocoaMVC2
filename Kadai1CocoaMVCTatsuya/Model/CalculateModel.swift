@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+protocol CalculateModelDelegate : AnyObject {
+    func calculateModel(_ calculateModel: CalculateModel, didCalculateResult result: Int)
+}
+
+class CalculateModel {
+    weak var delegate: CalculateModelDelegate?
+    
+    func sum(_ numberArray: [Int]) {
+        let result = numberArray.reduce(0, { $0 + $1 })
+        delegate?.calculateModel(self, didCalculateResult: result)
+    }
+}

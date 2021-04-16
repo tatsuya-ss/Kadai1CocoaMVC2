@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		756B4171262966100044AE68 /* CalculateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 756B4170262966100044AE68 /* CalculateView.xib */; };
 		75CE30F8262832EA0003065B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE30F7262832EA0003065B /* AppDelegate.swift */; };
 		75CE30FA262832EA0003065B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE30F9262832EA0003065B /* SceneDelegate.swift */; };
-		75CE30FC262832EA0003065B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE30FB262832EA0003065B /* ViewController.swift */; };
+		75CE30FC262832EA0003065B /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE30FB262832EA0003065B /* CalculateViewController.swift */; };
 		75CE30FF262832EA0003065B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CE30FD262832EA0003065B /* Main.storyboard */; };
 		75CE3101262832EC0003065B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CE3100262832EC0003065B /* Assets.xcassets */; };
 		75CE3104262832EC0003065B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CE3102262832EC0003065B /* LaunchScreen.storyboard */; };
 		75CE310F262832EC0003065B /* Kadai1CocoaMVCTatsuyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE310E262832EC0003065B /* Kadai1CocoaMVCTatsuyaTests.swift */; };
 		75CE311A262832EC0003065B /* Kadai1CocoaMVCTatsuyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE3119262832EC0003065B /* Kadai1CocoaMVCTatsuyaUITests.swift */; };
 		75CE312E262834E30003065B /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE312D262834E30003065B /* CalculateModel.swift */; };
-		75CE3133262834F30003065B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE3132262834F30003065B /* MainView.swift */; };
+		75CE3133262834F30003065B /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE3132262834F30003065B /* CalculateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		756B4170262966100044AE68 /* CalculateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculateView.xib; sourceTree = "<group>"; };
 		75CE30F4262832EA0003065B /* Kadai1CocoaMVCTatsuya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadai1CocoaMVCTatsuya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CE30F7262832EA0003065B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CE30F9262832EA0003065B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75CE30FB262832EA0003065B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75CE30FB262832EA0003065B /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		75CE30FE262832EA0003065B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75CE3100262832EC0003065B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CE3103262832EC0003065B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		75CE3119262832EC0003065B /* Kadai1CocoaMVCTatsuyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai1CocoaMVCTatsuyaUITests.swift; sourceTree = "<group>"; };
 		75CE311B262832EC0003065B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75CE312D262834E30003065B /* CalculateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
-		75CE3132262834F30003065B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		75CE3132262834F30003065B /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +139,7 @@
 		75CE312A262834950003065B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				75CE30FB262832EA0003065B /* ViewController.swift */,
+				75CE30FB262832EA0003065B /* CalculateViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,7 +147,8 @@
 		75CE312B262834AA0003065B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				75CE3132262834F30003065B /* MainView.swift */,
+				75CE3132262834F30003065B /* CalculateView.swift */,
+				756B4170262966100044AE68 /* CalculateView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				75CE3104262832EC0003065B /* LaunchScreen.storyboard in Resources */,
 				75CE3101262832EC0003065B /* Assets.xcassets in Resources */,
 				75CE30FF262832EA0003065B /* Main.storyboard in Resources */,
+				756B4171262966100044AE68 /* CalculateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,10 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75CE30FC262832EA0003065B /* ViewController.swift in Sources */,
+				75CE30FC262832EA0003065B /* CalculateViewController.swift in Sources */,
 				75CE30F8262832EA0003065B /* AppDelegate.swift in Sources */,
 				75CE312E262834E30003065B /* CalculateModel.swift in Sources */,
-				75CE3133262834F30003065B /* MainView.swift in Sources */,
+				75CE3133262834F30003065B /* CalculateView.swift in Sources */,
 				75CE30FA262832EA0003065B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
