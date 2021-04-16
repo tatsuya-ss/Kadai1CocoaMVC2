@@ -15,6 +15,8 @@
 		75CE3104262832EC0003065B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CE3102262832EC0003065B /* LaunchScreen.storyboard */; };
 		75CE310F262832EC0003065B /* Kadai1CocoaMVCTatsuyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE310E262832EC0003065B /* Kadai1CocoaMVCTatsuyaTests.swift */; };
 		75CE311A262832EC0003065B /* Kadai1CocoaMVCTatsuyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE3119262832EC0003065B /* Kadai1CocoaMVCTatsuyaUITests.swift */; };
+		75CE312E262834E30003065B /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE312D262834E30003065B /* CalculateModel.swift */; };
+		75CE3133262834F30003065B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE3132262834F30003065B /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		75CE3115262832EC0003065B /* Kadai1CocoaMVCTatsuyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kadai1CocoaMVCTatsuyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CE3119262832EC0003065B /* Kadai1CocoaMVCTatsuyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai1CocoaMVCTatsuyaUITests.swift; sourceTree = "<group>"; };
 		75CE311B262832EC0003065B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CE312D262834E30003065B /* CalculateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
+		75CE3132262834F30003065B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		75CE30F6262832EA0003065B /* Kadai1CocoaMVCTatsuya */ = {
 			isa = PBXGroup;
 			children = (
+				75CE312C262834B30003065B /* Model */,
+				75CE312B262834AA0003065B /* View */,
+				75CE312A262834950003065B /* Controller */,
 				75CE30F7262832EA0003065B /* AppDelegate.swift */,
 				75CE30F9262832EA0003065B /* SceneDelegate.swift */,
-				75CE30FB262832EA0003065B /* ViewController.swift */,
 				75CE30FD262832EA0003065B /* Main.storyboard */,
 				75CE3100262832EC0003065B /* Assets.xcassets */,
 				75CE3102262832EC0003065B /* LaunchScreen.storyboard */,
@@ -126,6 +132,30 @@
 				75CE311B262832EC0003065B /* Info.plist */,
 			);
 			path = Kadai1CocoaMVCTatsuyaUITests;
+			sourceTree = "<group>";
+		};
+		75CE312A262834950003065B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75CE30FB262832EA0003065B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75CE312B262834AA0003065B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75CE3132262834F30003065B /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75CE312C262834B30003065B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75CE312D262834E30003065B /* CalculateModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +290,8 @@
 			files = (
 				75CE30FC262832EA0003065B /* ViewController.swift in Sources */,
 				75CE30F8262832EA0003065B /* AppDelegate.swift in Sources */,
+				75CE312E262834E30003065B /* CalculateModel.swift in Sources */,
+				75CE3133262834F30003065B /* MainView.swift in Sources */,
 				75CE30FA262832EA0003065B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
